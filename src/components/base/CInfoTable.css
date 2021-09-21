@@ -1,0 +1,21 @@
+@import "../App.css";
+
+.CInfoTable th {
+    background-color: var(--appColorDark);
+    color:var(--appColor);
+    border:none ;
+}
+
+.CInfoTable tr {
+    border: none;
+}
+
+.CInfoTable td {
+    background-color: var(--appColorDark);
+    color:#fff;
+    border: none;
+}
+
+.CInfoTable td:first-child, .CInfoTable th:first-child {
+    width: 64px;
+}

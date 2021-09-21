@@ -1,0 +1,53 @@
+{
+  "homepage": "./",
+  "name": "geo-monitor",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@ap.cx/react-fullpage": "^0.1.10",
+    "@fullpage/react-fullpage": "^0.1.17",
+    "@south-paw/react-vector-maps": "^3.0.0",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "bootstrap": "^4.4.1",
+    "chart.js": "^2.9.3",
+    "datamaps": "^0.5.9",
+    "jquery": "^3.4.1",
+    "jqvmap": "^1.5.1",
+    "json-loader": "^0.5.7",
+    "react": "^16.12.0",
+    "react-bootstrap": "^1.0.0-beta.16",
+    "react-bootstrap-table": "^4.3.1",
+    "react-dom": "^16.12.0",
+    "react-flag-icon-css": "^1.0.25",
+    "react-loader-spinner": "^3.1.14",
+    "react-scripts": "^3.4.1",
+    "react-transition-group": "^4.3.0",
+    "semantic-ui-css": "^2.4.1",
+    "semantic-ui-react": "^0.88.2",
+    "shortid": "^2.2.15"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "proxy": "http://localhost",
+  "eslintConfig": {
+    "extends": "bgprep.info"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

@@ -1,0 +1,9 @@
+@import "../../App.css";
+
+.CRadarChart {
+    margin-bottom:  30px;
+}
+
+.CRadarChart canvas {
+
+}

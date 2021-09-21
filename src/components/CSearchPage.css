@@ -1,0 +1,97 @@
+@import "../App.css";
+
+.CSearchPage {
+    width:100%;
+    overflow-y: auto;
+    overflow-x: hidden;
+    height: 100%;
+}
+
+
+.CSearchPageCenter {
+    position: absolute;
+    top: 40%;
+    left: 40%;
+}
+
+@media screen and (max-width: 768px) {
+    .CSearchPageCenter {
+        position: absolute;
+        top: 30%;
+        left: 10% !important;
+    }
+}
+
+
+.CSearchPageCenter button{
+    min-width: 100px;
+}
+
+.CSearchPageResultSearch {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.CSearchPageResultSearch button {
+    min-width: 100px;
+    margin-left: 10px;
+}
+
+.CSearchPageCenter .form-control{
+    margin-right: 10px !important;
+}
+
+.CSearchPageLogo {
+    color: var(--appColorDark);
+    margin-bottom: 20px;
+}
+
+.CSearchPageLogo i::before {
+    font-size: 50px;
+    color : var(--green);
+    margin-right: 0px;
+    margin-left: 10px;
+}
+
+.CSearchPageLogo span {
+    font-size: 20px;
+    opacity: 0.7;
+}
+
+.CSearchPageInfo {
+    margin-top: 10px;
+    opacity: 0.4;
+    margin-left: 5px;
+}
+
+.CSearchReportHeader {
+    margin-bottom: 15px;
+}
+
+
+.CSearchReportHeader i:before {
+    font-size: 35px;
+    margin-right: 15px;
+    color: var(--green);
+}
+
+
+.CSearchReportValue {
+    width: 100%;
+    height: 10px;     
+}
+
+.CSearchReportValue div {
+    width: 30px;
+    height: 30px;
+    font-size: 12px;
+    text-align: center;
+    padding-top: 6px;
+    border-radius: 20px;
+}
+
+.CSearchError {
+    color : red;
+    font-size: 18px;
+    opacity: 1;
+}

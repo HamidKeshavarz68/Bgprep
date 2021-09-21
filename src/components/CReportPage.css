@@ -1,0 +1,55 @@
+@import "../App.css";
+
+.CReportPage {
+    width:100%;
+    overflow-y: auto;
+    overflow-x: hidden;
+    height: 100%;
+}
+
+.CReportPage table {
+    font-size: 14px !important;
+}
+
+.CReportPageCard .CardTitle {
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+.CReportPageCard .CardTitle i::before {
+    margin-left: 0px;
+    margin-right: 20px;
+    font-size: 25px;
+    color: var(--green);
+}
+
+.CReportPageCard .CardBody {
+    margin-left: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.CReportPageLoad {
+    position: absolute;
+    left: 49%;
+    top: 50%;
+}
+
+.CReportPageSecScore div{
+    width: 30px;
+    height: 30px;
+    font-size: 12px;
+    text-align: center;
+    padding-top: 6px;
+    border-radius: 20px;
+}
+
+
+.CReportMapItem{
+    cursor: pointer;
+}
+
+.CReportMapItemSelected{
+    background-color:#eee;
+}

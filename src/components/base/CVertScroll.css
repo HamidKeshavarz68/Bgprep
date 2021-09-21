@@ -1,0 +1,25 @@
+@import "../App.css";
+
+.CVertScrollMenu {
+    margin-top: 15% !important;
+    min-width: 220px;
+}
+
+.CVertScrollMenu i {
+    float: left !important;
+    font-size: 20px !important;
+    color: #aaa;
+}
+
+.CVertScrollMenu .active {
+    border-color: var(--appColor) !important;
+}
+
+.CVertScrollMenu .active i {
+    font-size: 25px !important;
+    color: var(--appColor);
+}
+
+.CVertScrollMenuHeader{
+    color: var(--appColor) !important;
+}

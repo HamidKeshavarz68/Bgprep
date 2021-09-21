@@ -1,0 +1,8 @@
+{
+  "short_name": "bgprep.info",
+  "name": "BGP AS reputaion database",
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
